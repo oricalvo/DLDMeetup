@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let contact of contactsVM">
+        <input type="checkbox" [checked]="contact.selected" />
+        <span>{{contact.name}}</span>
+    </li>
+</ul>
